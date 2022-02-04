@@ -5,7 +5,7 @@ import { UserList } from './users';
 import { HospitalList } from './hospitals';
 import authProvider from './authProvider';
 
-const dataProvider = jsonServerProvider('http://localhost:3000');
+const dataProvider = jsonServerProvider('http://18.139.146.61:3000');
 const App = () => (
   <Admin dataProvider={dataProvider} authProvider={authProvider}>
     <Resource name="users" list={UserList} />
