@@ -7,7 +7,7 @@ import authProvider from './authProvider';
 
 const dataProvider = jsonServerProvider('http://18.139.146.61:3000');
 const App = () => (
-  <Admin dataProvider={dataProvider} authProvider={authProvider}>
+  <Admin dataProvider={dataProvider}>
     <Resource name="users" list={UserList} />
     <Resource name="hospitals" list={HospitalList} />
   </Admin>
