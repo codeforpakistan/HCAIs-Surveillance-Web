@@ -1,6 +1,6 @@
 const authProvider = {
     login: ({ username, password }) =>  {
-        const request = new Request('http://localhost:3000/login', {
+        const request = new Request('http://18.141.220.82:3000/login', {
             method: 'POST',
             body: JSON.stringify({ username, password }),
             headers: new Headers({ 'Content-Type': 'application/json' }),

@@ -17,7 +17,7 @@
   "scripts": {
     "start": "PORT=8000 react-scripts start",
     "build": "PORT=8080 react-scripts build",
-    "build_start": "react-scripts build & serve -s build -p 8080", 
+    "build_start": "react-scripts build && serve -s build -p 8080", 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
